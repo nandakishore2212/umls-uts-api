@@ -9,7 +9,7 @@ import xml.etree.ElementTree as ET
 import sys
 
 parser = argparse.ArgumentParser(description='process user given parameters')
-parser.add_argument("-k", "--apikey", required = True, dest = "apikey", help = "enter api key from your UTS Profile")
+parser.add_argument("-k", "--apikey", required = True, dest = "apikey", help = "enter api key from your UTS")
 parser.add_argument("-p", "--profile", required = False, dest = "profile", help = "Enter a binding profile, such as MU2 2016 Update")
 parser.add_argument("-o", "--outputfile", required = True, dest = "outputfile", help = "enter a name for your output file")
 parser.add_argument("-i", "--inputfile", required = True, dest = "inputfile", help = "enter a name for your input file")
