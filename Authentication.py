@@ -20,7 +20,7 @@ class Authentication:
    def __init__(self, apikey):
     #self.username=username
     #self.password=password
-    self.apikey="<your key>"
+    self.apikey="<get key from UTS website>"
     self.service="http://umlsks.nlm.nih.gov"
 
    def gettgt(self):
@@ -33,6 +33,7 @@ class Authentication:
      ## we make a POST call to this URL in the getst method
      tgt = response.xpath('//form/@action')[0]
      return tgt
+
 
    def getst(self,tgt):
 
