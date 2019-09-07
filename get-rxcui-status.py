@@ -18,7 +18,7 @@ uri = "https://morc3.nlm.nih.gov"
 args = parser.parse_args()
 inputfile=args.inputfile
 outputfile=args.outputfile
-
+ 
 
 def get(path,query):
   time.sleep(.05)
