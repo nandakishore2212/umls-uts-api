@@ -17,7 +17,7 @@ import os
     #sys.setdefaultencoding('utf-8')
 
 parser = argparse.ArgumentParser(description='blood')
-parser.add_argument("-k", "--apikey", required = False, dest = "apikey", default = "<enter api key>", help = "enter api key from your UTS Profile")
+parser.add_argument("-k", "--apikey", required = False, dest = "apikey", default = "<enter api key from UTS>", help = "enter api key from your UTS Profile")
 parser.add_argument("-v", "--version", required = False, dest="version", default = "current", help = "enter version example-2017AA")
 
 args = parser.parse_args()
