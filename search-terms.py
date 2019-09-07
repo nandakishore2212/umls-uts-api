@@ -18,7 +18,7 @@ query = "screw"
 parser = argparse.ArgumentParser(description='process user given parameters')
 #parser.add_argument("-u", "--username", required =  True, dest="username", help = "enter username")
 #parser.add_argument("-p", "--password", required =  True, dest="password", help = "enter passowrd")
-parser.add_argument("-k", "--apikey", required = False, dest = "apikey", default = "<your api key>", help = "enter api key from your UTS Profile")
+parser.add_argument("-k", "--apikey", required = False, dest = "apikey", default = "<your api key from UTS website>", help = "enter api key from your UTS Profile")
 parser.add_argument("-v", "--version", required =  False, dest="version", default = "current", help = "enter version example-2015AA")
 parser.add_argument("-s", "--string", required =  False, dest="string", default = query,help = "enter a search term, like 'diabetic foot'")
 
