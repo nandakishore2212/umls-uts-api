@@ -21,7 +21,7 @@ parser.add_argument("-o", "--outputfile", required = True, dest = "outputfile", 
 parser.add_argument("-s", "--sabs", required = False, dest="sabs",help = "enter a comma-separated list of vocabularies, like MSH, SNOMEDCT_US, or RXNORM")
 parser.add_argument("-t", "--ttys", required = False, dest="ttys",help = "enter a comma-separated list of term types, like PT,SY,IN")
 parser.add_argument("-i", "--inputfile", required = True, dest = "inputfile", help = "enter a name for your input file")
-
+ 
 
 args = parser.parse_args()
 apikey = args.apikey
