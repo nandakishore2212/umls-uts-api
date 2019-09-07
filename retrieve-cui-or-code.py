@@ -13,7 +13,7 @@ import argparse
 parser = argparse.ArgumentParser(description='process user given parameters')
 #parser.add_argument("-u", "--username", required =  True, dest="username", help = "enter username")
 #parser.add_argument("-p", "--password", required =  True, dest="password", help = "enter passowrd")
-parser.add_argument("-k", "--apikey", required = False, dest = "apikey", default = "<your api key>", help = "enter api key from your UTS Profile")
+parser.add_argument("-k", "--apikey", required = False, dest = "apikey", default = "<your api key from UTS>", help = "enter api key from your UTS Profile")
 parser.add_argument("-v", "--version", required =  False, dest="version", default = "current", help = "enter version example-2015AA")
 parser.add_argument("-i", "--identifier", required =  False, dest="identifier", default = "C0301559", help = "enter identifier example-C0018787")
 parser.add_argument("-s", "--source", required =  False, dest="source", help = "enter source name if known")
