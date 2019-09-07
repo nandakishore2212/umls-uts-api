@@ -12,7 +12,7 @@ from requests import utils
 parser = argparse.ArgumentParser(description='process user given parameters')
 parser.add_argument("-ttys", "--termtypes", required = True, dest = "ttys", help = "Enter TTYs to query, separated by a space")
 parser.add_argument("-o", "--outputfile", required = True, dest = "outputfile", help = "enter a name for your output file")
-
+ 
 
 uri = "https://rxnav.nlm.nih.gov"
 args = parser.parse_args()
