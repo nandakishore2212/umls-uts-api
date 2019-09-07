@@ -13,7 +13,7 @@ import sys
 #reload(sys)
 #sys.setdefaultencoding('utf-8')
 parser = argparse.ArgumentParser(description='bone')
-parser.add_argument("-k", "--apikey", required = False, dest = "apikey", default = "<enter api key>", help = "enter api key from your UTS Profile")
+parser.add_argument("-k", "--apikey", required = False, dest = "apikey", default = "<enter api key from UTS>", help = "enter api key from your UTS Profile")
 parser.add_argument("-v", "--version", required =  False, dest="version", default = "current", help = "enter version example-2015AA")
 parser.add_argument("-f", "--outputfile", required = False, dest = "outputfile",default = "testoutput.txt", help = "enter a name for your output file")
 
