@@ -14,6 +14,7 @@ The script performs the following functions:
    5) Merge drug_products dictionary and drug_ingredients dictionary
    6) Write output
 
+
 '''
 
 import requests
