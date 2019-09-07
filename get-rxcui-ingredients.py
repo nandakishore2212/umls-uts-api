@@ -17,7 +17,7 @@ import time
 from requests import utils
 from Authentication import *
 parser = argparse.ArgumentParser(description='process user given parameters')
-parser.add_argument("-k", "--apikey", required = False, dest = "apikey", default = "<enter api key>", help = "enter api key from your UTS Profile")
+parser.add_argument("-k", "--apikey", required = False, dest = "apikey", default = "<enter api key from UTS>", help = "enter api key from your UTS Profile")
 parser.add_argument("-i", "--inputfile", required = True, dest = "inputfile", help = "enter a name for your input file")
 parser.add_argument("-o", "--outputfile", required = True, dest = "outputfile", help = "enter a name for your output file")
 
